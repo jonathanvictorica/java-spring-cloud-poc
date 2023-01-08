@@ -16,5 +16,5 @@ Prueba de concepto implementando librerias de spring cloud (eureka, config serve
 
 ## 🚀 Documentación Técnica de la Solución
 ### Diagrama de Arquitectura
-![Diagrama de Arquitectura](https://github.com/jonathanvictorica/api-sistema-rondas-seguridad-srs/blob/develop/doc/Arquitectura.png)
+![Diagrama de Arquitectura](https://github.com/jonathanvictorica/java-spring-cloud-poc/blob/develop/docs/ArquitecturaSpringCloud.drawio.png)
 
