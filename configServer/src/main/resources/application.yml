@@ -11,4 +11,4 @@ spring:
           uri: https://github.com/jonathanvictorica/java-spring-cloud-poc
           default-label: develop
           force-pull: true
-          search-paths: configData
+          search-paths: configData/local

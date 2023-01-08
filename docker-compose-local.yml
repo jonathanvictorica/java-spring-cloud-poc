@@ -1,0 +1,53 @@
+version: '3.9'
+services:
+  mysql-container:
+    image: mysql:5.7
+    container_name: mysql-container
+    restart: on-failure
+    environment:
+      MYSQL_DATABASE: 'primemusic-dev-mysql'
+      MYSQL_USER: 'usr-primemusic-mysql'
+      MYSQL_PASSWORD: 'pwd-primemusic-mysql'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+  mongo-container:
+    image: mongo
+    container_name: mongo-container
+    restart: on-failure
+    environment:
+      MONGO_INITDB_DATABASE: 'primemusic-dev-mongo'
+      MONGO_INITDB_ROOT_USERNAME: 'usr-primemusic-mongo'
+      MONGO_INITDB_ROOT_PASSWORD: 'pwd-primemusic-mongo'
+    ports:
+      - 27017:27017
+    expose:
+      - 27017
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+  zipkin-server-container:
+    image: openzipkin/zipkin-slim
+    container_name: zipkin-server-container
+    environment:
+      - STORAGE_TYPE=mem
+    ports:
+      - "9411:9411"
+    expose:
+      - 9411
+    depends_on:
+      - storage-aux-container
+  storage-aux-container:
+    image: busybox:1.31.0
+    container_name: storage-aux-container
+  rabbitmq-container:
+    image: rabbitmq:3-management
+    container_name: rabbitmq-container
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    expose:
+      - 15672
+      - 5672

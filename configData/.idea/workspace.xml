@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65181e3a-9203-471d-a4a9-96ea0ae3bbc7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/api-music.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/api-playlist.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/api-suggestion.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/eurekaServer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-music.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/api-music.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-playlist.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/api-playlist.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-suggestion.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/api-suggestion.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/eurekaServer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/gateway.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +40,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Github/jonathanvictorica2023/java-spring-cloud-poc/api-suggestion",
+    "last_opened_file_path": "C:/Github/jonathanvictorica2023/java-spring-cloud-poc/configData/local",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\jonathanvictorica2023\java-spring-cloud-poc\configData\local" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\jonathanvictorica2023\java-spring-cloud-poc\configData\dev" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +62,7 @@
       <updated>1673189243186</updated>
       <workItem from="1673189244435" duration="235000" />
       <workItem from="1673189741616" duration="1630000" />
+      <workItem from="1673198577495" duration="177000" />
     </task>
     <servers />
   </component>
