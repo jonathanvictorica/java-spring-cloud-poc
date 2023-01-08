@@ -18,3 +18,5 @@ Prueba de concepto implementando librerias de spring cloud (eureka, config serve
 ### Diagrama de Arquitectura
 ![Diagrama de Arquitectura](https://github.com/jonathanvictorica/java-spring-cloud-poc/blob/develop/docs/ArquitecturaSpringCloud.drawio.png)
 
+### Diagrama de Componentes
+![Diagrama de Componentes](https://github.com/jonathanvictorica/java-spring-cloud-poc/blob/develop/docs/DiagramaCompontentes.png)
