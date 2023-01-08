@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65181e3a-9203-471d-a4a9-96ea0ae3bbc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Github/jonathanvictorica2023/java-spring-cloud-poc/docker-compose.yml"
+    "last_opened_file_path": "C:/Github/jonathanvictorica2023/java-spring-cloud-poc/api-suggestion",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673189243186</updated>
       <workItem from="1673189244435" duration="235000" />
-      <workItem from="1673189741616" duration="1327000" />
+      <workItem from="1673189741616" duration="1630000" />
     </task>
     <servers />
   </component>

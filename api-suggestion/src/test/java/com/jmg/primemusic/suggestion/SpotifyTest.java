@@ -44,10 +44,6 @@ class SpotifyTest extends BaseAPI {
                 .when().get("/api/v1/suggestions/offline/{popularidad}")
                 .andReturn().body().as(GetSugerenciaByPopularidadResponse.class);
 
-
-
-
-
         assertEquals(responseOnline.getMusics().size(), 1);
         assertEquals(responseOnline.getPlaylist().size(), 1);
 
