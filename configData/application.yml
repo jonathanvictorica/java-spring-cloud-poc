@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: rabbitmq-container
+    port: 5672
+  zipkin:
+    baseUrl: http://zipkin-server-container:9411/

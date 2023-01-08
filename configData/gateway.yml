@@ -1,0 +1,42 @@
+server:
+  port: ${PORT:${SERVER_PORT:8080}}
+
+spring:
+  application:
+    name: gateway
+  cloud:    
+    gateway:      
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: msplaylist
+          uri: lb://api-playlist
+          predicates:
+            - Path=/api/v1/playlists/**
+        - id: msmusic
+          uri: lb://api-music
+          predicates:
+            - Path=/api/v1/musics/**
+        - id: mssugeridos
+          uri: lb://api-suggestion
+          predicates:
+            - Path=/api/v1/suggestions/**
+info:
+  app:
+    name: ${spring.application.name}
+
+eureka:
+   client:
+      registerWithEureka: false
+      fetchRegistry: true
+      serviceURL:
+         defaultZone: http://eureka-server-container:8761/eureka
+management:
+   endpoint:
+      gateway:
+         enabled: true
+   endpoints:
+      web:
+         exposure:
+            include: gateway
